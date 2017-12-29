@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "stop-that",
+  "version": "1.0",
+  "description": "Stop using that site.",
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "permissions": [ "tabs", "storage" ],
+  "options_ui": {
+    "page": "options/index.html",
+    "browser_style": true
+  }
+}
